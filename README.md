@@ -4,7 +4,7 @@ Avoid XSS with the help of Joi validator
 ## Example
 
 ```js
-const xss = require('@ncardez/joi-xss');
+const xss = require('@puzzleframework/joi-xss');
 const Joi = require('@hapi/joi').extend(xss('object'), xss('array'), xss('string'));
   
 const input = { name: "<p>hola</p>" };
